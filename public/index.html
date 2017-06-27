@@ -43,13 +43,17 @@
     <hr>
     <h3>Usage</h3>
         <h4>Submit a file to view its filesize.</h4>
-        <div class="text-center">
-        <form action="/get-file-size" method="post" enctype="multipart/form-data">
+        
+      <!--  <form action="/get-file-size" method="post" enctype="multipart/form-data">
         <input type="file" name="file">
         <input type="submit">
+        </form> -->
+        <form class="form-inline" method="post" action="upload" enctype="multipart/form-data">
+            <input type="file" name="file" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="here">    
+            <button type="submit" class="btn btn-danger">Submit</button>
         </form>
-        </div>
-        
+       
+
 
     
     
