@@ -4,7 +4,7 @@
 ### API Project 05 - File Metadata Microservice
 -----------------------------------------------------------------------------------
 
-#### The Project is hosted here in Glitch.com : HERE
+#### The Project is hosted here in Glitch.com : https://spotty-relative.glitch.me/
 
 -----------------------------------------------------------------------------------
 __Technologies used__:
