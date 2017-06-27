@@ -9,6 +9,10 @@ var upload = multer({dest: 'uploads/'})
 // Route Definitions
 app.use('/', express.static(path.join(__dirname,'public')))
 
+app.post('/upload/', upload.single(), function(req,res,next) {
+    
+})
+
 
 //Server Listening and Port Definition
 const port = process.env.PORT | 8080;
